@@ -76,19 +76,36 @@ By Default Security group is created only for your current IP (Source). To be ab
 
 ![Légende](Endpoint.PNG)
 
-#Connect to the data base called Database_1
+# Connect to the data base called Database_1
 
 ![Légende](Linux_connect.PNG)
 
-## Connect to a database:
+## Connect to a database via Linux:
 
 ![Légende](Linux_create.PNG)
 
-connect DataBaseName
+## Connect to a database via MYSQL:
 
-## Useful commands:
+![Légende](Connection_MYSQL.PNG)
+![Légende](Check_connection.PNG)
+![Légende](Table_display_MYSQL.PNG)
+
+# Create Database (publicly accessible)
+
+
+
+### Useful commands:
 
 * SHOW TABLES;
 * DESCRIBE table;
 * DROP TABLE table;
 * Create table (SQL):
+
+**Architecture**
+
+# VPC
+* Subnet1 in AZ1
+* Subnet2 in AZ2 (different from AZ1)
+
+# RDS instance
+* Enable DNS resolution and DNS hostnames for your VPC
