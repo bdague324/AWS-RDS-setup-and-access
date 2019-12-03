@@ -16,9 +16,8 @@
  **EC2 Instance**
  * belongs to Subnet3
  * Public IP
-
- SG1:
-
+ 
+ **SG1**
  allow Inbound SSH from local
  allow Outbound All traffic
  Create Database (not publicly accessible)
@@ -110,7 +109,7 @@ The table called student is found by the following commands:
 # Create Database (publicly accessible)
 
 * The DNS resolution and DSN hosnames should be set at enable.
-* When creating the RDS instance, this last one is set as Publicly accessible. 
+* When creating the RDS instance, this last one is set as Publicly accessible.
 
 ### Useful commands:
 
@@ -118,12 +117,3 @@ The table called student is found by the following commands:
 * DESCRIBE table;
 * DROP TABLE table;
 * Create table (SQL):
-
-**Architecture**
-
-# VPC
-* Subnet1 in AZ1
-* Subnet2 in AZ2 (different from AZ1)
-
-# RDS instance
-* Enable DNS resolution and DNS hostnames for your VPC
