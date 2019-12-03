@@ -58,6 +58,8 @@
 
 By Default Security group is created only for your current IP (Source). To be able to connect, it needs to be changed:
 
+
+
 ![Légende](Connect_conf.PNG)
 
 ## Additional configurations
@@ -75,3 +77,18 @@ By Default Security group is created only for your current IP (Source). To be ab
 ![Légende](Endpoint.PNG)
 
 #Connect to the data base called Database_1
+
+![Légende](Linux_connect.PNG)
+
+## Connect to a database:
+
+![Légende](Linux_create.PNG)
+
+connect DataBaseName
+
+## Useful commands:
+
+* SHOW TABLES;
+* DESCRIBE table;
+* DROP TABLE table;
+* Create table (SQL):
