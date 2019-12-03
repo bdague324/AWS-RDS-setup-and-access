@@ -92,6 +92,8 @@ By Default Security group is created only for your current IP (Source). To be ab
 
 ## Connect to the database via using Python)
 
+The installation of the package called pymysql is needed.
+
 Herebelow the script Python to connect to the database.
 
 ![Légende](Script_connection.PNG)
@@ -107,6 +109,8 @@ The table called student is found by the following commands:
 
 # Create Database (publicly accessible)
 
+* The DNS resolution and DSN hosnames should be set at enable.
+* When creating the RDS instance, this last one is set as Publicly accessible. 
 
 ### Useful commands:
 
