@@ -80,18 +80,32 @@ By Default Security group is created only for your current IP (Source). To be ab
 
 ![Légende](Linux_connect.PNG)
 
-## Connect to a database via Linux:
+## Connect to the database using Linux:
 
 ![Légende](Linux_create.PNG)
 
-## Connect to a database via MYSQL:
+## Connect to the database using MYSQL:
 
 ![Légende](Connection_MYSQL.PNG)
 ![Légende](Check_connection.PNG)
 ![Légende](Table_display_MYSQL.PNG)
 
-# Create Database (publicly accessible)
+## Connect to the database via using Python)
 
+Herebelow the script Python to connect to the database.
+
+![Légende](Script_connection.PNG)
+
+Herebelow the result of the request on Python. A list of the different database.
+
+![Légende](List_database_Python.PNG)
+
+The table called student is found by the following commands:
+
+![Légende](Table_retrieve_python.PNG)
+
+
+# Create Database (publicly accessible)
 
 
 ### Useful commands:
